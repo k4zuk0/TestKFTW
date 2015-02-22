@@ -1,0 +1,91 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "26cf89a83bb08cc9a5bce8caced9c0a8",
+    "packages": [
+        {
+            "name": "facebook/xhp-lib",
+            "version": "dev-hack",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/facebook/xhp-lib.git",
+                "reference": "a4b9eac109d21be1ae6d5bd78af52f0dd2149b38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/facebook/xhp-lib/zipball/a4b9eac109d21be1ae6d5bd78af52f0dd2149b38",
+                "reference": "a4b9eac109d21be1ae6d5bd78af52f0dd2149b38",
+                "shasum": ""
+            },
+            "require": {
+                "hhvm": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Class library for XHP",
+            "homepage": "https://github.com/facebook/xhp-lib",
+            "keywords": [
+                "facebook",
+                "hack",
+                "hhvm",
+                "xhp"
+            ],
+            "time": "2015-02-18 20:13:34"
+        },
+        {
+            "name": "k4zuk0/kftw",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/k4zuk0/KFTW.git",
+                "reference": "9a4c87cf04b1851dcc38a00dfb5c87cd2dea958b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/k4zuk0/KFTW/zipball/9a4c87cf04b1851dcc38a00dfb5c87cd2dea958b",
+                "reference": "9a4c87cf04b1851dcc38a00dfb5c87cd2dea958b",
+                "shasum": ""
+            },
+            "require": {
+                "facebook/xhp-lib": "dev-hack"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-0": {
+                    "": "src/"
+                },
+                "psr-4": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "My first attempt at making a Hacklang Framework",
+            "time": "2015-02-18 20:26:05"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "k4zuk0/kftw": 20,
+        "facebook/xhp-lib": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

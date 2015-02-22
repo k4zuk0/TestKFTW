@@ -1,0 +1,10 @@
+{
+    "name": "k4zuk0/testkftw",
+    "autoload": {
+        "psr-0": {"": "src/", "KFTWApp": "app/"}
+    },
+    "require": {
+        "k4zuk0/kftw": "dev-master@dev",
+        "facebook/xhp-lib": "dev-hack"
+    }
+}
